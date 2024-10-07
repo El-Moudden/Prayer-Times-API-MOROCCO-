@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap" rel="stylesheet">
+  <title>مواعيد الاذان في المغرب</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>مواعيد الاذان في المغرب</h1>
+      <span class="today" ><span class="gregorian" ></span></span>
+    </div>
+    
+
+    <div class="section">
+      <div class="cities">
+
+        <h2> مواقيت الصلاة   </h2>
+
+       <select name="cities" id="cities" onchange="getCity(this.value)">
+         <option value="chefchouen">شفشاون</option>
+         <option value="rabat">الرباط</option>
+         <option value="khemisset">الخميسات</option>
+         <option value="fes">فاس</option>
+         <option value="kenitra">القنيطرة</option>
+         <option value="tanger">طنجة</option>
+         <option value="tetouan">تطوان</option>
+         <option value="casablanca">الدار البيضاء</option>
+         <option value="agadir">اكادير</option>
+         <option value="Marrakech">مراكش</option>
+         <option value="Oujda-Angad	">وجدة</option>
+         <option value="Dakhla-Oued Ed-Dahab (EH)	">الداخلة</option>
+         <option value="Laâyoune (EH)	">العيون</option>
+         <option value="Meknès">مكناس</option>
+        
+       </select>
+        
+  
+      </select>
+      </div>
+      
+      
+      <div class="Prayers ">
+        <div class="fajr box">
+          <h3>الفجر</h3>
+          <img src="https://timesprayer.com/images/fajr.svg" alt="">
+          <p>00000</p>
+        </div>
+        <div class="sunrise box">
+          <h3>الشروق</h3>
+          <img src="https://timesprayer.com/images/sunrise.svg" alt="">
+          <p>00000</p>
+        </div>
+        <div class="dhuhr box">
+          <h3>الظهر</h3>
+          <img src="https://timesprayer.com/images/dhuhr.svg" alt="">
+          <p>00000</p>
+        </div>
+        <div class="asr box">
+          <h3>العصر</h3>
+          <img src="https://timesprayer.com/images/asr.svg" alt="">
+          <p>00000</p>
+        </div>
+        <div class="maghrib box">
+          <h3>المغرب</h3>
+          <img src="https://timesprayer.com/images/maghrib.svg" alt="">
+          <p>00000</p>
+        </div>
+        <div class="ishaa box">
+          <h3>العشاء</h3>
+          <img src="https://timesprayer.com/images/isha.svg" alt="">
+          <p>00000</p>
+        </div>
+      </div>
+    </div>
+    <div class="time" dir="ltr">
+
+      <div class="clock">
+        <div class="hours">22:</div>
+        <div class="minutes">50:</div>
+        <div class="seconds">30</div>
+
+      </div>
+      <div class="date">
+        <span class="day"></span>
+        <span class="today"></span>
+        <span class="month"></span>
+      </div>
+    </div>
+    <div class="aya">
+     إن الصلاة كانت على المؤمنين كتابا موقوتا
+    </div>
+
+    <div class="footer">
+
+     <p>جميع الحقوق محفوظة © 2024 </p>
+  
+    </div>
+
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="./script.js"></script>
+  
+
+</body>
+</html>
+
+

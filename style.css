@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+  font-family: "Noto Kufi Arabic", sans-serif;
+
+}
+
+.container {
+  width: 1200px;
+  
+  margin: 15px auto;
+
+}
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.section {
+  background-color: white;
+  padding: 30px;
+}
+
+
+.cities {
+  display: flex;
+}
+
+
+select {
+  width: 150px;
+  height: 40px;
+  padding-right: 20px;
+  border-radius: 20px;
+  color: rgb(83,104,5);
+  font-weight: bolder;
+  font-size:28px;
+  border: none;
+  cursor: pointer;
+  
+}
+select option {
+  border: none;
+}
+
+.Prayers {
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(6,1fr) ;
+  gap: 10px;
+}
+.box {
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.box img {
+  width: 80px;
+}
+h3  {
+
+  margin-top: 10px;
+
+ 
+
+}
+
+
+.time {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  margin-top: 20px;
+}
+
+
+.clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  height: 50%;
+  
+}
+.clock .hours {
+  font-size: 50px;
+}
+.clock .minutes {
+  font-size: 50px;
+}
+.clock .seconds {
+  font-size: 50px;
+}
+
+.aya {
+  font-family: "Reem Kufi Fun", sans-serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+
+}
+.footer p {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 15px;
+
+}
